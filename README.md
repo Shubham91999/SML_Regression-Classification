@@ -50,26 +50,6 @@ SML_Regression-Classification/
 | **Cost Function** | Mean Squared Error (MSE) implementation from scratch. |
 | **Multiple Variable Regression** | Extending linear regression to multiple features. |
 | **Logistic Regression** | Binary classification using sigmoid activation. |
-
----
-
-## ⚙️ Mathematical Foundation
-
-### 🧩 Linear Regression Cost Function:
-\[
-J(θ) = \frac{1}{2m} \sum_{i=1}^{m} (h_θ(x^{(i)}) - y^{(i)})^2
-\]
-
-### ⚙️ Gradient Descent Update Rule:
-\[
-θ_j := θ_j - α \frac{∂}{∂θ_j}J(θ)
-\]
-
-Where:
-- \( α \) = learning rate  
-- \( m \) = number of training examples  
-- \( h_θ(x) \) = predicted value  
-
 ---
 
 ## 🧮 Example Implementation
